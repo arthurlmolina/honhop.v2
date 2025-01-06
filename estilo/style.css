@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'dela-gothic';
+    src: url('../fontes/DELA_GOTHIC_ONE/DelaGothicOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'clone-bold';
+    src: url('../fontes/CLONE_ROUNDED_LATIN/clone-rounded-latin-bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'clone-extra-bold' ;
+    src: url('../fontes/CLONE_ROUNDED_LATIN/clone-rounded-latin-extra-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'clone-extra-light';
+    src: url('../fontes/CLONE_ROUNDED_LATIN/clone-rounded-latin-extra-light.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'clone-light';
+    src: url('../fontes/CLONE_ROUNDED_LATIN/clone-rounded-latin-light.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'clone-medium';
+    src: url('../fontes/CLONE_ROUNDED_LATIN/clone-rounded-latin-medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'clone-regular';
+    src: url('../fontes/CLONE_ROUNDED_LATIN/clone-rounded-latin-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'clone-semi-bold';
+    src: url('../fontes/CLONE_ROUNDED_LATIN/clone-rounded-latin-semi-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'clone-thin';
+    src: url('../fontes/CLONE_ROUNDED_LATIN/clone-rounded-latin-thin.ttf') format('truetype');
+}
+
+
+:root {
+    --candy_blue: #73c2e5;
+    --creamy_cream: #fbbb9f;
+    --sweet_green: #7dccaf;
+    --royal_milk: #efdad0;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    background-color: black;
+    border: 1px solid white;
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    text-align: center;
+}
+
+div#divlogo{
+    margin: auto;
+    text-align: center;
+    min-width: 278px;
+    max-width: 550px;
+    border: 1px solid white;
+}
+
+img#imglogo{
+    width: 100%;
+    height: 100%;
+}
+
+h2#h2header{
+    color: white;
+    font-family: 'clone-thin';
+    font-size: clamp(1.95rem, 3.2vw, 2.3rem); /* Responsivo: mínimo 1.95rem, ajusta até 2.3rem */
+}
+
+
+div#azul{
+    background-color: var(--candy_blue);
+    min-width: 278px;
+    max-width: 550px;
+    minheight: ;
+}
